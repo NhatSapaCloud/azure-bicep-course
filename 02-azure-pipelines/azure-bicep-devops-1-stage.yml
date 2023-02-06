@@ -37,3 +37,5 @@ steps:
       az deployment group create --resource-group $(resourceGroupName) \
          --template-file $(templateFile) \
          --parameters webAppName=$(webAppName)
+
+
